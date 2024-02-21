@@ -62,7 +62,68 @@ header {
     opacity: 60%;
     width: 75%;
   }
+
+  /*autore articolo*/
+  main article div>p:nth-of-type(1) {
+    color: gray;
+  }
+
+  /* immagine logo html */
+  main article img:nth-of-type(2) {
+    float: left;
+  }
+
+  /* sezione Novita*/
+  main article section {
+    height: 267px;
+    border: 1px solid red;
+    padding: 3.8em 1em;
+  }
+
+  /* pulsante Novita */
+  main article section h2 {
+    display: inline;
+    position: absolute;
+    top: -30px;
+    font-size: 1.8em;
+  }
+
+  /* Categoria */
+  aside div p:nth-of-type(1) {
+    position: relative;
+    top: -43px;
+    left: -74px;
+  }
+
+  /* cartellini prezzo */
+  .fa-tag {
+    color: #c7c7c7;
+    font-size: 4em;
+    position: relative;
+    top: 11px;
+    left: 102%;
+  }
+
+  /* pulsanti social */
+  #kalendar {
+    font-size: 3rem;
+    position: fixed;
+    top: 74%;
+    right: 18px;
+  }
+
+  #goToTop {
+    font-size: 3rem;
+    position: fixed;
+    top: 90%;
+    right: 18px;
+  }
+
+
+
+
 }
+
 /*** end min-width: 576px *************************************************/
 
 
@@ -90,7 +151,7 @@ header {
     color: gray;
   }
 
-  /* immagine html */
+  /* immagine logo html */
   main article img:nth-of-type(2) {
     float: left;
   }
@@ -112,7 +173,7 @@ header {
   aside div p:nth-of-type(1) {
     position: relative;
     top: -30px;
-    left: -60px;    
+    left: -60px;
   }
 
   /* cartellini prezzo */
@@ -121,7 +182,7 @@ header {
     font-size: 3em;
     position: relative;
     top: -2px;
-    left: 102%;    
+    left: 102%;
   }
 
   /* pulsanti social */
@@ -139,6 +200,7 @@ header {
     right: 18px;
   }
 }
+
 /*** end min-width: 768px ************************************************/
 
 /*** start min-width: 1200px ***********************************************/
@@ -239,6 +301,7 @@ header {
     right: 18px;
   }
 }
+
 /*** end min-width: 1200px *************************************************/
 
 
